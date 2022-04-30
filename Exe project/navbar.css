@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-image: url(exeimage.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+nav {
+    height: 80px;
+    background-color: rgb(9, 3, 30);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    float: right;
+    margin-right: 10px;
+}
+
+nav ul li {
+    margin: 0 10px;
+    align-items: center;
+}
+
+nav ul li a {
+    color: white;
+    padding: 7px 20px;
+    border-radius: 15px;
+    letter-spacing: 1px;
+    text-decoration: uppercase;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: aliceblue;
+    color: black;
+    transition: 0.5s;
+}
+
+nav .logo {
+    color: white;
+    padding-left: 40px;
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+h1 {
+    /* background-color: blue;*/
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 1000px;
+    font-size: 90px;
+    margin-left: 350px;
+    position: absolute;
+}
+
+h1:hover {
+    color: rgb(227, 26, 12);
+}
+
+.sidenav {
+    background-color: rgba(48, 122, 122, 0);
+    width: 200px;
+    position: absolute;
+    margin: 90px 50px;
+    height: 400px;
+}
+
+.sidenav ul {
+    margin: 15px;
+}
+
+.sidenav ul li {
+    background-color: rgb(4, 7, 92);
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.sidenav ul li a {
+    text-align: center;
+    color: rgb(249, 247, 247);
+}
+
+.sidenav ul li:hover,
+a.active {
+    background-color: rgb(3, 3, 3);
+    border-radius: 20px;
+    right: 100px;
+    cursor: pointer;
+    transform: scale(1.2);
+}

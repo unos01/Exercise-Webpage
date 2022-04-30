@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+}
+
+h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 70px;
+}
+
+.container {
+    height: 500px;
+    width: 1000px;
+    background-color: rgba(219, 126, 126, 0.2);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.container:hover {
+    background-color: rgb(21, 121, 209);
+    cursor: pointer;
+}
+
+.container p {
+    margin: 10px;
+    padding: 5px;
+    list-style-type: circle;
+    color: black;
+}
